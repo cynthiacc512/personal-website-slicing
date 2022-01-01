@@ -1,0 +1,102 @@
+.service .download {
+    background-color: #e09a0a;
+    color: #fff;
+    padding: 8px 32px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.service .hello-orange {
+    color: #f9ad12;
+    font-weight: 500;
+    font-size: 42px;
+    letter-spacing: 0.02em;
+    margin-bottom: -30px;
+}
+
+.service .hello-white {
+    color: #fff;
+    font-weight: 500;
+    font-size: 42px;
+    letter-spacing: 0.02em;
+}
+
+.content {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.content-description {
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    width: 600px;
+    display: flex;
+}
+
+/* .skills{
+    flex-direction: row;
+} */
+
+.my-skill {
+    width: 293px;
+    height: 326px;
+    background: #393a5a;
+    border-radius: 30px;
+    margin-left: 48px;
+    /* overflow: scroll; */
+}
+
+.my-skill  h4 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.my-skill  p {
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-top: -16px;
+    display: block;
+    
+}
+
+.my-skill  img {
+    padding-top: 48px;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.view {
+    background-color: #e09a0a;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+

@@ -1,0 +1,153 @@
+header {
+    display: flexbox;
+    overflow: auto;
+}
+
+.logo {
+    float: left;
+}
+
+.logo ul a {
+    padding: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+}
+.logo img {
+    float: left;
+    height: 50px;
+    width: auto;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    overflow: hidden;
+}
+
+.group-menu ul a {
+    padding: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+}
+
+a:hover {
+    color: #f9ad12;
+    font-weight: 600;
+}
+
+.wa {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #e09a0a;
+    padding: 12px 18px;
+    border-radius: 10px;
+    /* display: inline-block; */
+    vertical-align: middle;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.text {
+    margin-top: 10%;
+    /* margin-left: 118px; */
+}
+
+.text .hello-white {
+    color: #fff;
+    font-weight: 500;
+    font-size: 48px;
+    letter-spacing: 0.02em;
+    margin-bottom: -30px;
+}
+
+.text .hello-orange {
+    color: #f9ad12;
+    font-weight: 500;
+    font-size: 48px;
+    letter-spacing: 0.02em;
+}
+
+.text .job {
+    color: #fff;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    margin-top: -18px;
+}
+
+.text .description {
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    margin-top: -10px;
+}
+
+.text .hire-me {
+    background-color: #e09a0a;
+    color: #fff;
+    padding: 8px 32px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 400;
+    vertical-align: middle;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.photo {
+    margin-top: 15%;
+    margin-right: -300px;
+}
+
+.circle-top {
+    height: 200px;
+    width: 200px;
+    background-color: #78c3d0;
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+}
+
+.square {
+    width: 296px;
+    height: 373px;
+    background-color: #c4cce0;
+    border-radius: 200px 200px 0px 0px;
+    margin-top: 82px;
+    margin-left: 84px;
+}
+
+.circle-bottom {
+    height: 200px;
+    width: 200px;
+    background-color: #e09a0a;
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+    margin-top: -105px;
+    margin-left: 296px;
+}
+
+.social-media {
+    color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media svg{
+    margin-top: 26px;
+}

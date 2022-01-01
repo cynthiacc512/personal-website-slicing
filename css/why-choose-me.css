@@ -1,0 +1,49 @@
+.choose-me .hello-white {
+    color: #fff;
+    font-weight: 500;
+    font-size: 42px;
+    letter-spacing: 0.02em;
+    margin-bottom: -30px;
+}
+
+.choose-me .hello-orange {
+    color: #f9ad12;
+    font-weight: 500;
+    font-size: 42px;
+    letter-spacing: 0.02em;
+}
+
+.descriptions-choose-me {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.descriptions-choose-me > .description {
+    margin: 34px;
+    width: 271px;
+}
+
+.illustration {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description h3 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.description p {
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}

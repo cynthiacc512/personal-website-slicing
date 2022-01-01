@@ -1,0 +1,47 @@
+@import "/css/theme.css";
+
+.tools-skills .hello-white {
+    color: #fff;
+    font-weight: 500;
+    font-size: 42px;
+    letter-spacing: 0.02em;
+}
+
+.tools-skills .hello-orange {
+    color: #f9ad12;
+    font-weight: 500;
+    font-size: 42px;
+    letter-spacing: 0.02em;
+}
+
+.skills {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.skill {
+    border-radius: 50%;
+    max-height: 150px;
+    width: 150px;
+    display: inline-block;
+    margin-right: 34px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
